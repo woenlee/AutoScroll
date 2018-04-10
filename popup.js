@@ -1,8 +1,10 @@
 let startScroll = document.getElementById('startScroll');
 startScroll.style.backgroundColor = '#00FF7F';
-var pixels,waitTime;
-//Scroll  object
+var pixels,waitTime,timeout;
+
+//Scroll object
 startScroll.onclick = function begin() {
+    clearTimeout(timeout);
     var slider = document.getElementById("myRange");
     if(slider.value < 300)
         waitTime = 300 - slider.value;
@@ -19,7 +21,7 @@ startScroll.onclick = function begin() {
         pixels = 5;
     else if(slider.value >= 500)
         pixels = 6;
-    setInterval(scroll, waitTime);
+    timeout = setInterval(scroll, waitTime);
 }
 
 function scroll(element) {
