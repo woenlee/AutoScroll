@@ -2,13 +2,17 @@
 A Simple AutoScrolling Extension for Chrome
 
 This extension was inspired by the [Ultimate Guitar Website](ultimateguitar.com), which has autoscroll functionality for chord sheets. AutoScroll aims to extend this functionality universally to any Chrome website. Enjoy!
-### How to Start
+### Installation
 1. Clone/Download this repo
 2. Go to `chrome://extensions`
 3. Enable "Developer Mode" (top right)
 4. Click "Load Unpacked"
 5. Select `AutoScroll` directory
 
-### In Progress
+### Features
+The extension features a slider that can be used to control scroll speed. Closing the popup stops the scrolling.
+
+#### In Progress
+* Save preferences
 * Embedded PDF's
 * Google Sheets/Docs
