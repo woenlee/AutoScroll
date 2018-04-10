@@ -1,5 +1,8 @@
-const kButtonColors = ['#3aa757', '#e8453c', '#f9bb2d', '#4688f1'];
+'use strict';
+
+const kButtonColors = ['#3aa757', '#e8453c', '#f9bb2d', '#4688f1', '#ffffff'];
 function constructOptions(kButtonColors) {
+    let buttonsDiv = document.getElementById('buttonDiv');
     for (let item of kButtonColors) {
         let button = document.createElement('button');
         button.style.backgroundColor = item;
@@ -8,7 +11,8 @@ function constructOptions(kButtonColors) {
                 console.log('color is ' + item);
             })
         });
-        page.appendChild(button);
+        buttonsDiv.appendChild(button);
+        //page.appendChild(button);
     }
 }
 constructOptions(kButtonColors);
