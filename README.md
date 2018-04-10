@@ -1,7 +1,7 @@
 # AutoScroll
 A Simple AutoScrolling Extension for Chrome
 
-This extension was inspired by the [Ultimate Guitar Website](https://ultimateguitar.com), which has autoscroll functionality for chord sheets. AutoScroll aims to extend this functionality universally to any Chrome website. Can be used for browsing Reddit, Facebook, novels, long text files, etc. Enjoy!
+This extension was inspired by the [Ultimate Guitar Website](https://ultimateguitar.com), which has autoscroll functionality for chord sheets. AutoScroll aims to extend this functionality universally to any website. Can be used for browsing Reddit, Facebook, novels, long text files, etc. Enjoy!
 ### Installation
 1. Clone/Download this repo
 2. Go to `chrome://extensions`
