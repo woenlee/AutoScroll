@@ -10,7 +10,7 @@ This extension was inspired by the [Ultimate Guitar Website](https://ultimategui
 5. Select `AutoScroll` directory
 
 ### Features
-The extension features a slider that can be used to control scroll speed. Click to start scrolling. Close the popup to stop scrolling.
+The extension features a slider that can be used to control scroll speed. Click to start scrolling or to update scroll speed. Close the popup to stop scrolling.
 ![something](images/Demo_Image.png)
 #### In Progress
 * UI
