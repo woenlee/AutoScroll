@@ -1,13 +1,13 @@
-let changeColor = document.getElementById('changeColor');
+let startScroll = document.getElementById('startScroll');
+startScroll.style.backgroundColor = '#00FF7F';
 
-chrome.storage.sync.get('color', function(data) {
-    changeColor.style.backgroundColor = data.color;
-    changeColor.setAttribute('value', data.color);
-});
+//Scroll window object
+startScroll.onclick = function begin() {
+    setInterval(scroll, 100);
+}
 
-changeColor.onclick = function(element) {
-    let color = element.target.value;
-    console.log('color is ' + color);
+function scroll(element) {
+    console.log('scrolling!');
     chrome.tabs.executeScript(
-        {code: 'document.body.style.backgroundColor = "' + color + '";'});
+        {code: 'window.scrollBy(0,2);'});
 };
