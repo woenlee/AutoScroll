@@ -6,9 +6,12 @@
 <body>
 <h1>AutoScroll</h1>
 <button id="startScroll">Click to Scroll!</button>
+<p>Drag the slider to adjust scroll speed</p>
 <div class="slidecontainer">
-    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+    <input type="range" min="1" max="500" value="250" class="slider" id="myRange">
+    <p>Value: <span id="sliderVal"></span></p>
 </div>
 <script src="popup.js"></script>
+<script src="slider.js"></script>
 </body>
 </html>
