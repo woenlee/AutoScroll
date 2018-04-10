@@ -10,5 +10,5 @@ This extension was inspired by the [Ultimate Guitar Website](ultimateguitar.com)
 5. Select `AutoScroll` directory
 
 ### In Progress
--embedded PDF
--Google Sheets/Docs
+* Embedded PDF's
+* Google Sheets/Docs
