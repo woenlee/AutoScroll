@@ -8,3 +8,7 @@ This extension was inspired by the [Ultimate Guitar Website](ultimateguitar.com)
 3. Enable "Developer Mode" (top right)
 4. Click "Load Unpacked"
 5. Select `AutoScroll` directory
+
+### In Progress
+-embedded PDF
+-Google Sheets/Docs
