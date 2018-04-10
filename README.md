@@ -1,2 +1,3 @@
 # AutoScroll
-AutoScrolling Extension for Chrome
+A Simple AutoScrolling Extension for Chrome
+
