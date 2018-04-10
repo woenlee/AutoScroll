@@ -16,4 +16,4 @@ The extension features a slider that can be used to control scroll speed. Click 
 * UI
 * Save preferences
 * Embedded PDF's
-* Google Sheets/Docs
+* Google Drive: Sheets/Docs functionality
