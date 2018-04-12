@@ -1,16 +1,18 @@
 {
   "name": "AutoScroll",
-  "version": "1.0",
+  "version": "0.0.2",
   "description": "Autoscrolling for the lazy!",
   "permissions": ["activeTab", "declarativeContent", "storage"],
   "browser_action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "128": "images/scroll.png"
+      "128": "images/scroll.png",
+      "48": "images/scroll copy.png"
     }
   },
   "icons": {
-      "128": "images/scroll.png"
+      "128": "images/scroll.png",
+      "48": "images/scroll copy.png"
   },
   "manifest_version": 2
 }
