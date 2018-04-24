@@ -11,7 +11,7 @@ This extension was inspired by the [Ultimate Guitar Website](https://ultimategui
 
 ### Features
 The extension features a slider that can be used to control scroll speed. Click to start scrolling or to update scroll speed. Close the popup to stop scrolling.
-![something](images/Demo_Image.png)
+![demoscreenie](images/Demo_Image.png)
 #### In Progress
 * UI improvements
 * Save preferences
